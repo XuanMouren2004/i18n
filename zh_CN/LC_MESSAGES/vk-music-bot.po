@@ -1,1 +1,302 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-21 10:18+0300\n"
+"PO-Revision-Date: 2026-02-22 03:02+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
 
+#: handlers/antiadmin.py:43
+msgid ""
+"Please, don't make me a group admin. Add me as a regular user and use /song "
+"or /artist commands to init search. For now I'm leaving, bye!"
+msgstr ""
+"请不要将我设为群组管理员。请将我作为普通用户添加，并使用 /song 或 /artist 命"
+"令发起搜索。我先撤啦，再见！"
+
+#: handlers/audio.py:230
+#, python-format
+msgid ""
+"This group is out of downloads (%(limit)d per day), please use the bot via "
+"direct message: @%(bot_name)s"
+msgstr ""
+"本群组的每日下载额度已耗尽（每日 %(limit)d 次），请直接私聊机器人继续使用："
+"@%(bot_name)s"
+
+#: handlers/audio.py:241
+#, python-format
+msgid "You're out of downloads (%d per day), please try again later"
+msgstr "您的每日下载额度已用完（每日 %d 次），请稍后再试"
+
+#: handlers/audio.py:260
+#, python-format
+msgid ""
+"⚠️ <b>Warning!</b> This bot may be blocked soon by request of copyright "
+"owners.\n"
+"\n"
+"Please subscribe to our new bot @%(bot_name)s to download audio"
+msgstr ""
+"⚠️ <b>警告！</b> 应版权方要求，此机器人可能很快会被屏蔽。\n"
+"\n"
+"请关注我们的新机器人 @%(bot_name)s 以继续下载音频"
+
+#: handlers/audio.py:267
+#, python-format
+msgid "Subscribe to @%(bot_name)s"
+msgstr "关注 @%(bot_name)s"
+
+#: handlers/audio.py:294
+msgid "Please wait, your audio is coming..."
+msgstr "请稍候，音频正在传输中..."
+
+#: handlers/audio.py:304
+msgid "Song is removed by copyright owners"
+msgstr "该歌曲已应版权方要求删除"
+
+#: handlers/audio.py:324
+msgid "Reason for report:"
+msgstr "举报原因："
+
+#: handlers/audio.py:328
+msgid "Bad/broken audio"
+msgstr "音频损坏或无法播放"
+
+#: handlers/audio.py:332
+msgid "Wrong artist/title"
+msgstr "歌手/歌名错误"
+
+#: handlers/audio.py:335 handlers/settings.py:78 handlers/settings.py:100
+msgid "Close"
+msgstr "关闭"
+
+#: handlers/audio.py:346 handlers/audio.py:355
+msgid "Audio reported"
+msgstr "已收到举报"
+
+#: handlers/docdb.py:78
+msgid "Got it! Note: it may take time for the song to appear in the search"
+msgstr "收到！注意：新歌曲可能需要一段时间才能出现在搜索结果中"
+
+#: handlers/docdb.py:83
+msgid "Artist and/or title is missing. Please update the tags and re-upload"
+msgstr ""
+"这是一条针对音频文件元数据（ID3 Tags）缺失的错误提示，通常出现在用户尝试上传"
+"或分享信息不全的文件时。\n"
+"\n"
+"建议翻译：\n"
+"\n"
+"缺少歌手和/或歌名信息。请更新音频标签（Tags）后重新上传"
+
+#: handlers/docdb.py:85
+msgid "Bitrate is too low. Please upload audio in better quality"
+msgstr "比特率过低，请上传音质更好的音频。"
+
+#: handlers/docdb.py:87
+#, python-format
+msgid "Unsupported audio format: %s"
+msgstr "不支持的音频格式：%s"
+
+#: handlers/docdb.py:89
+msgid "Too small file"
+msgstr "文件过小"
+
+#: handlers/favorites.py:38
+msgid "Added to your playlist (/my)"
+msgstr "已添加到您的播放列表 (/my)"
+
+#: handlers/favorites.py:44
+msgid "Removed from your playlist"
+msgstr "已从您的播放列表中移除"
+
+#: handlers/help.py:13
+msgid "🔥 Commands"
+msgstr "🔥 指令列表"
+
+#: handlers/help.py:14 handlers/start.py:77
+msgid ""
+"Just send me an artist and/or a song name and I will find music for you!"
+msgstr "只需发送歌手和/或歌名，我就能为您找到音乐！"
+
+#: handlers/help.py:15 handlers/start.py:78
+msgid "/song — search by song title"
+msgstr "/song — 按歌名搜索"
+
+#: handlers/help.py:16 handlers/start.py:79
+msgid "/artist — search for artist name"
+msgstr "/artist — 按歌手名搜索"
+
+#: handlers/help.py:17
+msgid "/my — list your playlist"
+msgstr "/my — 查看您的播放列表"
+
+#: handlers/help.py:18
+msgid "/top — popular songs"
+msgstr "/top — 热门歌曲"
+
+#: handlers/help.py:19 handlers/start.py:81
+msgid "/settings — change settings"
+msgstr "/settings — 更改设置"
+
+#: handlers/help.py:24
+#, python-format
+msgid "Contact information: %(contact)s"
+msgstr "联系方式：%(contact)s"
+
+#: handlers/search.py:187
+msgid "I found nothing"
+msgstr "未找到相关内容"
+
+#: handlers/search.py:210
+#, python-format
+msgid "Results %(first)d-%(last)d of %(total)d\n"
+msgstr "第 %(first)d-%(last)d 条结果，共 %(total)d 条\n"
+
+#: handlers/search.py:218
+msgid "Some of results were blocked by request of copyright owners"
+msgstr "应版权方要求，部分结果已被屏蔽"
+
+#: handlers/search.py:406
+msgid "What song are you looking for?"
+msgstr "您想找什么歌？"
+
+#: handlers/search.py:408
+msgid "Song title"
+msgstr "歌名"
+
+#: handlers/search.py:434
+msgid "What artist are you looking for?"
+msgstr "您想找哪位歌手？"
+
+#: handlers/search.py:436
+msgid "Artist name"
+msgstr "歌手名"
+
+#: handlers/search.py:486 handlers/search.py:509 handlers/search.py:535
+#: handlers/search.py:565 handlers/search.py:591
+msgid "You need to search for something before"
+msgstr "请先输入搜索内容"
+
+#: handlers/search.py:514
+msgid "You're at the first page already"
+msgstr "您已在第一页"
+
+#: handlers/settings.py:54
+msgid "Enabled"
+msgstr "已启用"
+
+#: handlers/settings.py:55
+msgid "Disabled"
+msgstr "已禁用"
+
+#: handlers/settings.py:58
+msgid "Language"
+msgstr "语言"
+
+#: handlers/settings.py:60
+#, python-format
+msgid "Bitrate preview: %s"
+msgstr "比特率预览：%s"
+
+#: handlers/settings.py:63
+#, python-format
+msgid "Like (heart) buttons: %s"
+msgstr "点赞（爱心）按钮：%s"
+
+#: handlers/settings.py:69
+#, python-format
+msgid "Show audio format: %s"
+msgstr "显示音频格式：%s"
+
+#: handlers/settings.py:72
+#, python-format
+msgid "Search results: %d"
+msgstr "搜索结果：%d 条"
+
+#: handlers/settings.py:75
+#, python-format
+msgid "Advanced search: %s"
+msgstr "高级搜索：%s"
+
+#: handlers/settings.py:80
+msgid "What would you like to change?"
+msgstr "您想修改什么？"
+
+#: handlers/settings.py:103
+msgid "Please, select new language"
+msgstr "请选择新语言"
+
+#: handlers/settings.py:112
+msgid "Please help us with a donation (/donate) to access this feature"
+msgstr "请通过捐赠 (/donate) 支持我们以开启此功能"
+
+#: handlers/settings.py:155
+msgid "Please, help us to know you better. *Where are you from?*"
+msgstr "请让我们更深入地了解您。您来自哪里？"
+
+#: handlers/settings.py:221
+msgid "Thank you"
+msgstr "谢谢"
+
+#: handlers/settings.py:240
+msgid "Language settings updated"
+msgstr "语言设置已更新"
+
+#: handlers/shazam_shared_track.py:51
+#, python-format
+msgid "Extracted title: %s"
+msgstr "提取标题：%s"
+
+#: handlers/start.py:80
+msgid "/setlang — change language"
+msgstr "/setlang — 更改语言"
+
+#: handlers/sub_confirmation.py:52
+msgid ""
+"Please subscribe to the following channels and then click \"Check "
+"subscription\" button.\n"
+"\n"
+"You're supporting our team by subscribing to these channels. Thank you!"
+msgstr ""
+"请订阅以下频道，然后点击“检查订阅状态”按钮。\n"
+"\n"
+"您的订阅是对我们团队最大的支持。谢谢！"
+
+#: handlers/sub_confirmation.py:67
+msgid "✅ Check subscription"
+msgstr "✅ 检查订阅状态"
+
+#: handlers/sub_confirmation.py:127
+msgid "Thank you for subscription! You can now download audios"
+msgstr "感谢订阅！您现在可以下载音频了"
+
+#: handlers/sub_confirmation.py:133
+msgid "Please subscribe to the channels and try again!"
+msgstr "请订阅相关频道后再重试！"
+
+#: handlers/unknowncommand.py:27
+#, python-format
+msgid ""
+"Unknown command: %(command)s. Call /help for a list of available commands."
+msgstr "未知指令：%(command)s。输入 /help 查看可用指令列表。"
+
+#: handlers/url.py:47
+msgid "Please, use our bot @mmgetbot to download videos from TikTok!"
+msgstr "请使用我们的机器人 @mmgetbot 来下载 TikTok 视频！"
+
+#: handlers/voicerec.py:37
+msgid "❓ Audio was not recognized"
+msgstr "❓ 无法识别此音频"
